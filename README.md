@@ -222,7 +222,7 @@ Only perform the following part once, otherwise it takes longer to compile.
 ### Frontend clean reset
 
 ```shell
-  rm -rf public/app/node_modules && npm run build:public && npm run start:public
+  rm -rf public/app/node_modules build && npm run build:public && npm run start:public
 ```
 
 Only perform the following part once, otherwise it takes longer to compile.
